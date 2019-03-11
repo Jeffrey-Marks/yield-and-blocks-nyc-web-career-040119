@@ -1,4 +1,4 @@
-names = ["Tim", "Tom", "Jim"]
+names = ["Tim", "Tom", "Jim", "tomothy"]
 
 def hello_t(names_list)
   if block_given?
@@ -15,3 +15,5 @@ hello_t(names) do |name|
     puts "Hi, #{name}!"
   end
 end
+
+hello_t(names)
